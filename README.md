@@ -28,7 +28,7 @@ Post: http://localhost:8080/bar/init .
 - [x] Java 16
 - [x] H2 database
 - [x] lombok.
-- [x] Postman: [Descargar collection aqui](http://localhost/)
+- [x] Postman: [Descargar collection aqui](https://github.com/BrigitteAlejandra19/EjercicioExperta/blob/master/postman)
 - [x] Docker.
 - [x] Intellij ide.
 
