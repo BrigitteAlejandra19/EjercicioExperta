@@ -1,0 +1,150 @@
+{
+	"info": {
+		"_postman_id": "ecd2a53e-1309-47d0-b1ca-8f75d1e6e2be",
+		"name": "Experta",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n {\r\n    \r\n    \"nombre\": \"Calmate Carrie\",\r\n    \"domicilio\": \"Billinghurst 980\",\r\n    \"puntuacion\": \"4\",\r\n    \"email\": \"calmatecarrie2@gmail.com\",\r\n    \"telefono\": \"123456632\",\r\n    \"cuit\": \"123555\",\r\n    \"horario\": \"Desde las 20 hasta las 00\",\r\n    \"estacionamiento\": \"true\"\r\n }\r\n\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/bar/save",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bar",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "init",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n {\r\n    \r\n    \"nombre\": \"Calmate Carrie\",\r\n    \"domicilio\": \"Billinghurst 980\",\r\n    \"puntuacion\": \"4\",\r\n    \"email\": \"calamtecarrie2@gmail.com\",\r\n    \"telefono\": \"123456632\",\r\n    \"cuit\": \"123555\",\r\n    \"horario\": \"12:30:00\",\r\n    \"estacionamiento\": \"si\"\r\n }\r\n\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/bar/init",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bar",
+						"init"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "showAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bar/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bar",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "showAllPartialInfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bar/all/partial/info",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bar",
+						"all",
+						"partial",
+						"info"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "detailsById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bar/detalle/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bar",
+						"detalle",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteById",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/bar/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"bar",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
